@@ -23,10 +23,8 @@ function readTextFile(filePath) {
   });
 }
 
-// Caminho do arquivo a ser lido
-const filePath = "exemplo.txt"; // Certifique-se de ter este arquivo no mesmo diretório
+const filePath = "exemplo.txt";
 
-// Chamando a função para ler o arquivo usando a Promise
 readTextFile(filePath)
   .then((data) => {
     const bits = textToBits(data);
