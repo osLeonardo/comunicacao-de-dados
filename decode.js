@@ -17,15 +17,12 @@ function checkParityAndDecodeBits(bitsWithParity) {
       const decodedChar = String.fromCharCode(asciiValue);
       decodedText += decodedChar;
     } else {
-      decodedText += '?';
+      decodedText += ' - bit inválido - ';
     }
   });
 
   return decodedText;
 }
-
-const bitsWithParity = '011011110 011011000 011000011';
-const decodedText = checkParityAndDecodeBits(bitsWithParity);
 
 function readTextFile(filePath) {
   return new Promise((resolve, reject) => {
