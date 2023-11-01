@@ -5,7 +5,7 @@
 
 ### Estrutura e Funcionamento do Projeto:
 
-#### logic:
+#### diretório logic:
 > encrypt.js
 > - lê o arquivo message.txt na função readTextFile();
 > - ecripta a mensagem lida na função textToBits();
@@ -16,7 +16,7 @@
 > - checa os bits de paridade e decripta o código lido na função checkParityAndDecodeBits();
 > - escreve o resultado no arquivo final.txt na função writeTextFile().
 
-#### files:
+#### diretório files:
 > message.txt
 > - mensagem inicial (será lida e escriptada).
 
