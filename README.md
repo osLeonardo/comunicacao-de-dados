@@ -3,7 +3,7 @@
 ## Prof. Valter Blauth Junior
 ## Alunos: Jhonny Mezzari Bif, Leonardo Calderiano Zambrana e Leonardo Spilere
 
-### -> Estrutura do Projeto:
+### Estrutura e Funcionamento do Projeto:
 
 logic:
 > encrypt.js
