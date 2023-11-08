@@ -1,8 +1,8 @@
 const fs = require("fs");
 const join = require("path").join;
 
-const readFile = join("files/encrypted.txt");
-const writeFile = join("files/final.txt");
+const readFile = join("01/files/encrypted.txt");
+const writeFile = join("01/files/final.txt");
 
 readTextFile(readFile)
   .then((data) => {
