@@ -34,7 +34,7 @@ main.js (script completo)
 > - pergunta se sera alterado algum bit;
 >> #### se sim:
 >> - pede a colunae então a linha do bit a alterar;
->> - pede o valor que será inserido no lugar;
+>> - pede o valor que será inserido no lugar;🎻🪕
 > - verifica a matriz, em busca de bits alterados;
 >> #### se achar:
 >> - corrige o bit alterado e mostra o resultado.
