@@ -51,7 +51,7 @@ function checkParity(matrix) {
       matrix[i].reduce((sum, bit) => sum + bit, 0) % 2;
 
     if (rowParityBit !== calculatedRowParity) {
-      errors.push({ row: i, type: "row" });
+      errors.push({ row: i+1, type: "row" });
     }
   }
 
@@ -62,7 +62,7 @@ function checkParity(matrix) {
     const columnParityBit = column.reduce((sum, bit) => sum + bit, 0) % 2;
 
     if (columnParityBit !== columnParityRow[j]) {
-      errors.push({ column: j, type: "column" });
+      errors.push({ column: j+1, type: "column" });
     }
   }
 
